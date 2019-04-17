@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Speech interface for Children with disabilities">
+  <meta name="author" content="Richard Alipui">
+  <title>Speech Interface</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../public/stylesheets/style.css">
+
+</head>
+<body>
+
+<button><i class="fa fa-microphone"></i> </button>
+<section>
+
+  <div class="stuff">
+    <p> You said: <em class="you">...</em> </p>
+    <p> Bot says: <em class="bot">...</em> </p>
+
+  </div>
+</section>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/speech.js"></script>
+</body>
+</html>

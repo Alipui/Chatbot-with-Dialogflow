@@ -1,0 +1,17 @@
+{
+  "name": "Chatbot-with-Dialogflow",
+  "description": "Chatbot for children with disabilities",
+  "repository": "https://github.com/Alipui/Chatbot-with-Dialogflow",
+  "keywords": ["ai", "api.ai", "bot", "w3c"],
+  "env": {
+    "APIAI_TOKEN": {
+      "description": "API.ai Client access token",
+      "value": ""
+    },
+    "APIAI_SESSION_ID": {
+      "description": "An arbitrary string",
+      "value": ""
+    }
+  },
+  "image": "heroku/nodejs"
+}
